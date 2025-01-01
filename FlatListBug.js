@@ -1,0 +1,1 @@
+This bug occurs when using the FlatList component in React Native with a large dataset. The issue is that when scrolling the FlatList, the items don't render correctly, and some items may disappear or render at the wrong position. This is usually due to improper usage of the `keyExtractor` prop, `getItemLayout` prop or incorrect data manipulation within the FlatList.
